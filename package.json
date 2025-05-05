@@ -1,0 +1,20 @@
+{
+  "name": "mufees1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mufees1822/system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mufees1822/system/issues"
+  },
+  "homepage": "https://github.com/mufees1822/system#readme"
+}
