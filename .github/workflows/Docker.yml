@@ -3,7 +3,6 @@ name: Docker Build & Push
 on:
   push:
     branches: [ "main" ]
-
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -32,8 +31,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile  
           push: true
           tags: |
             mufees288/project-mufees:${{ github.sha }}
-            mufees288/project-mufees:latest
+            mufees288/project-mufees:latest  
